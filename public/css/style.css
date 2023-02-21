@@ -1,0 +1,150 @@
+.expBox{
+    /*Position*/
+    position: relative;
+    height : 225px; 
+    width : 90vw;
+    left: 5vw;
+
+
+}
+.exp::-webkit-scrollbar { width: 0 !important }
+
+.exp{
+    height:inherit;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.trigger{
+    height: inherit;
+    border: 3px solid blue;
+}
+/* Style */
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Medium.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+.container{
+
+    display: flex; 
+    color: white ;
+    flex-direction:column;
+}
+
+header{
+    width: 90%; 
+    height: 800px; 
+    margin: auto;   
+    float: left;
+}
+h1{
+    font-size: 10em !important;
+    margin-left: 10px !important;
+}
+h3{
+    margin: 4% 20%;
+}
+
+/*Work*/
+.work{
+    width: 90%; 
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.work-exp{
+    width: 45%; 
+
+    background: linear-gradient(rgb(213, 114, 52),transparent);
+    border-radius: 25px;
+
+}
+.work-exp-title{
+    letter-spacing: 13.5px;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.exp{
+    color: hsl(200deg 100% 77%);
+    padding:20px;
+    background: linear-gradient(hsl(0deg 50% 60%) ,transparent);
+    margin: -40px 7%;
+    border-radius: 25px 25px 0px 0px;
+    border-top: 8px solid  hsl(50deg 80% 70%);
+
+}
+.exp-entreprise{font-size: x-large; font-weight: 800; margin-bottom: 15px;     
+    border-top: 1px solid white;
+    border-radius: 14px;
+    padding-top: 10px; 
+    text-align: center;
+}
+.exp-header{display: inline-block; width: 100%; border: 2px solid #ffff99; padding: 5px;}
+.exp-poste{float: left;}
+.exp-location{float: right;}
+.exp-year{float: right;}
+.exp-description{margin-top: 10px; padding-bottom: 15px; border-bottom: 0.5px solid white;}
+.exp-technologie.tech-orga{text-transform: uppercase;  text-align: justify;   letter-spacing: 13.5px;}
+.exp-footer{ border-bottom: 1px solid white; padding-bottom: 40px; }
+
+.work-stu{    
+    width: 45%; 
+    color: #003b66;
+    background: linear-gradient(rgb(213, 114, 52),transparent);
+    border-radius: 25px;
+    
+
+}
+.stu{    
+    padding:20px;
+    background-color:#af91ad;
+    margin: -40px 30px;
+    border-radius: 25px 25px 0px 0px;
+    border-top: 8px solid hsl(170deg 50% 70%);
+}
+.stu-intitule{ 
+    text-align: center; font-size: x-large; font-weight: 800; margin-bottom: 15px}
+.stu-ecole{float: left}
+.stu-location{}
+.stu-year{ float: right}
+.stu-description{border-bottom: 1px solid white; padding-bottom: 40px;}
+
+.work-ski{
+    width: 100%; 
+    height: 500px;
+}
+
+.ski{}
+.ski-list{}
+.ski-metier{}
+.ski-orga{}
+.ski-progra{}
+
+.work-self{
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+.work-self.title{    
+    letter-spacing: 13.5px;
+    font-weight: 900;
+    font-size: 25px;
+    width: 100%;
+    justify-content: center;
+
+}
+.self{    width: 49%; }
+.self-name{ font-size: x-large; font-weight: 800; margin-bottom: 15px }
+.self-description{}
+.self-technologie{text-transform: uppercase;  text-align: justify;   letter-spacing: 13.5px;}

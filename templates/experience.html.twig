@@ -1,0 +1,38 @@
+
+{% if id % 2 == 1 %}
+    <div class="row expBox" style=" direction : rtl; ">
+        <div class="col-2 trigger " onclick="toogle({{id}},'right')">
+
+        </div>
+        <div class="exp col" id="exp{{id}}">
+            <!-- MY STUFF HERE -->
+            <h1 style="color:white">Hello {{ id }}</h1>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+        </div>
+    </div>
+{% else %}
+    <div class="expBox row">
+        <div class="col-2 align-self-start trigger" onclick="toogle({{id}}, 'left')">
+            
+        </div>
+        <div class="exp col" id="exp{{id}}">
+            <!-- MY STUFF HERE -->
+            <h1 style="color:white">Hello {{ id }}</h1>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+            <p>lqskjdfsdqlfsqdlfjksqdfhlkjsqh</p>
+        </div>
+
+    </div>
+{% endif %}
+
+
+
+
+
